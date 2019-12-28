@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:padding="8dp"
+        android:layout_below="@+id/loading"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/greet_user"
+        android:text="Hello :)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/new_chat_tv"
+            android:text="New Chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:layout_below="@+id/new_chat_tv"
+            android:inputType="text"
+            android:id="@+id/username"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:hint="Enter email of your friend"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="28dp"
+            android:paddingHorizontal="12dp"
+            android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:text="Send"
+            android:textColor="@android:color/black"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/see_request_btn"
+        android:text="Check your requests here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/see_request_btn"
+        android:textColor="@android:color/black"
+        android:paddingHorizontal="12dp"
+        android:textSize="14dp"
+        android:text="See Requests"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingVertical="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="yash.halgaonkar@gmail.com"
+        android:id="@+id/senderEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginRight="8dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:text="i am not feeling well... see you tommorow in college"
+            android:id="@+id/messageTextView"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <!--  Yash Halgaonkar
+          Abhimay Talkhedkar
+          Sanket Supekar
+          Harshal Chavan
+          Mangesh Dhondre
+          Bhoovan Kotak
+          Tanaya Varkate
+          Mangala Talkies
+          Good Newz
+                          -->
+</LinearLayout>

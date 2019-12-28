@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorBackground"
+android:padding="16dp"
+tools:context=".LoginActivity">
+
+<ImageView
+    android:layout_marginBottom="48dp"
+    android:layout_above="@id/main_layout"
+    android:id="@+id/trf_logo"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:src="@drawable/trflogo6" />
+
+<RelativeLayout
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginHorizontal="24dp">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:inputType="textPassword"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:gravity="left"
+        android:textColor="@android:color/black"
+        android:hint="Password"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20dp" />
+
+    <Button
+        android:paddingHorizontal="12dp"
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/white"
+        android:text="Register"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+</RelativeLayout>
+
+<ProgressBar
+    android:id="@+id/loading"
+    android:layout_marginTop="36dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<TextView
+    android:layout_marginBottom="8dp"
+    android:layout_above="@id/signIn"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:layout_centerHorizontal="true"
+    android:text="Already a user?"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<Button
+    android:layout_alignParentBottom="true"
+    android:paddingHorizontal="12dp"
+    android:id="@+id/signIn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="6dp"
+    android:background="@android:color/white"
+    android:text="Sign In"
+    android:textColor="@android:color/black"
+    android:textSize="14dp" />
+
+
+</RelativeLayout>

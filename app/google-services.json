@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "911339125790",
+    "firebase_url": "https://trf-chat.firebaseio.com",
+    "project_id": "trf-chat",
+    "storage_bucket": "trf-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911339125790:android:ff276b5456bbdf7499020f",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911339125790-eh0668tu54nu620apv85e9db05bl4h9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3IjrlC_L8wcps1tpZ60y1SL0bnesjKy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911339125790-eh0668tu54nu620apv85e9db05bl4h9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911339125790:android:5217652ce6cd1a6499020f",
+        "android_client_info": {
+          "package_name": "com.theroboticsforum.trfchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911339125790-h98q1596pq7fenugm15571tvl1n0n92f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theroboticsforum.trfchat",
+            "certificate_hash": "bf376e0843fef2c4accbcc82b0f5009c8c10f9e3"
+          }
+        },
+        {
+          "client_id": "911339125790-eh0668tu54nu620apv85e9db05bl4h9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3IjrlC_L8wcps1tpZ60y1SL0bnesjKy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911339125790-eh0668tu54nu620apv85e9db05bl4h9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
