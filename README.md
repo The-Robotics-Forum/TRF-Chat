@@ -1,4 +1,4 @@
-# TRf Chat | Android App | TRF RoboDroid Workshop
+# TRF Chat | Android App | TRF RoboDroid Workshop
 
 TRF Chat is the Android Application that TRF developed during RoboDroid Workshop 2020.
 
